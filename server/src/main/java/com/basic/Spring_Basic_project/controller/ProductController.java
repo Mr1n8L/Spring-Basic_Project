@@ -11,13 +11,13 @@ import java.util.List;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/Home")
+@RequestMapping("/home")
 public class ProductController {
 
     @Autowired
     private ProductService service;
 
-    @RequestMapping("/Products")
+    @RequestMapping("/products")
     public List<Product> getAllProduct(){
         return service.getAllProdcut();
     }
