@@ -20,8 +20,7 @@ const Home = () => {
       const fetchData = async () => {
         try {
           const response = await axios.get(
-            "http://localhost:8082/home/products"
-          );
+            "http://localhost:8082/home/products");
           setProducts(response.data);
           console.log(response.data);
         } catch (error) {

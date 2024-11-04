@@ -513,7 +513,7 @@ padding-top: 100px;
 .delete-btn {
   width: 18px;
   height: 17px;
-  background: url(&amp;quot;delete-icn.svg&amp;quot;) no-repeat center;
+  /*background: url(&amp;quot;delete-icn.svg&amp;quot;) no-repeat center;*/
   /* color: var(--body_color); */
 }
  
@@ -521,7 +521,7 @@ padding-top: 100px;
   position: absolute;
   top: 9px;
   left: 15px;
-  background: url('twitter-heart.png');
+  /*background: url('twitter-heart.png');*/
   width: 60px;
   height: 60px;
   background-size: 2900%;
